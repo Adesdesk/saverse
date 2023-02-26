@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link';
 import Footer from '../components/Footer';
+import Buttons from '../components/Buttons';
 import Navbar from '../components/Navbar';
 import { Inter } from 'next/font/google'
-/*import '../styles/globals.css'*/
 import styles from '@components/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,22 +21,31 @@ export default function Home() {
       <div>
         <Navbar />
       </div>
-      <div className="grid grid-cols-6 gap-1 bg-gradient-to-r from-slate-500 to-gray-200 h-screen">      
-      {/*<div className="grid grid-cols-1 gap-12 lg:grid-cols-12 bg-gradient-to-r from-slate-500 to-gray-200 h-screen">*/}
-      <div className="col-start-1 col-end-6 rounded-r-lg bg-gradient-to-r from-white to-gray-200 mx-2 my-2">
-     
-        {/*<div className="col-span-1 rounded-r-lg bg-gradient-to-r from-white to-gray-200 mx-2 my-2 lg:col-span-9">*/}
+      <div className="grid grid-cols-6 gap-1 bg-gradient-to-r from-slate-500 to-gray-200 h-full">
+        <div className="col-start-1 col-end-6 rounded-r-lg bg-gradient-to-r from-white to-gray-200 mx-2 my-2">
+
           <p className="ml-2 ext-white flex space-x-4">
             Get started with Saverse thrift administrator
           </p>
         </div>
-        
-        <div className="col-end-7 col-span-1 rounded-l-lg bg-gradient-to-r from-black to-gray-200 mx-2 my-2">
-          
-          </div>
-          </div>
-        
-        <Footer />
+
+        <div className="col-end-7 col-span-1 rounded-l-lg bg-gradient-to-r py-5 from-black to-gray-200 mx-2 my-2">
+
+        <Buttons text="No. 1" link="#" />
+        <Buttons text="No. 2" link="#" />
+        <Buttons text="No. 3" link="#" />
+        <Buttons text="No. 4" link="#" />
+        <Buttons text="No. 5" link="#" />
+        <Buttons text="No. 6" link="#" />
+        <Buttons text="No. 7" link="#" />
+        <Buttons text="No. 8" link="#" />
+        <Buttons text="No. 9" link="#" />
+        <Buttons text="No. 10" link="#" />
+
+        </div>
+      </div>
+      <br></br> 
+      <Footer />   
     </>
   )
 }

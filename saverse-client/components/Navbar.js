@@ -8,7 +8,7 @@ import logo from './saverse_logo.png'
 function Navbar() {
 
     return (
-        <div className='w-full h-24 bg-black'>
+        <div className='w-full h-24 bg-gray-900'>
             <div className='flex justify-between items-center p-4 md:w-11/12 md:mx-auto'>
                 <div>
                     <Image className='w-16 cursor-pointer' src={logo} alt="logo" />
@@ -24,7 +24,7 @@ function Navbar() {
                         <li className='font-normal p-1 cursor-pointer'>
                             <Link href='/users'>Guide</Link>
                         </li>
-                        {<li className='font-normal p-1 cursor-pointer'>Developer</li>}
+                        
                     </ul>
                 </div>
                 <div className='md:hidden'>

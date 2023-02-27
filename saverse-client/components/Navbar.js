@@ -14,7 +14,7 @@ function Navbar() {
                     <Image className='w-16 cursor-pointer' src={logo} alt="logo" />
                     <p className='absolute mb-5 font-bold text-2xl bottom-0.5 left-16 text-white'>averse</p>
                     <div className=''>
-                        <p className='font-normal ml-6 text-sm text-white'>Thrift without a rift</p>
+                        <p className='ml-6 text-sm text-yellow-300 font-normal'>...thrift without a rift.</p>
                     </div>
                     </div>
 

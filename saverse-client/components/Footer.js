@@ -10,7 +10,7 @@ function Footer() {
   <div className="max-w-2xl mx-auto text-white py-3">
     <div className="text-center">
       <h3 className="text-3xl mb-3">Saverse thrift administrator</h3>
-      <p>Thrift without a rift.</p>
+      <p className="text-yellow-300">...thrift without a rift.</p>
       <div className="flex justify-center my-4">
         <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
 

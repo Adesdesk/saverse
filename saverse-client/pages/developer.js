@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import SocialMediaIcons from '../components/SocialMediaIcons';
 import Img2 from '../public/Adeola_dp.png';
+import Buttons from '../components/Buttons';
+
 
 
 function Developer() {
@@ -16,19 +18,19 @@ function Developer() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div>
+            <div className="h-full">
                 <Navbar />
             </div>
-            <div className=''>
-                <div className=''>
-                    <br></br>
+            <div className="grid grid-cols-6 gap-1 bg-gradient-to-r from-slate-500 to-gray-200">
+                <div className="col-start-1 col-end-6 rounded-r-lg bg-gradient-to-r from-white to-gray-200 mx-2 my-2">
+                    <div className='mt-3 mx-3 text-justify'>
 
                     <h1 className=''>Adeola David Adelakun</h1>
                     <h4 className=''>Full-stack Solidity Developer</h4>
 
-                    <div className=''>
-                        <Image
-                            className=''
+                    <div className='my-5'>
+                        <Image style={{ boxShadow: '3px 4px 3px 4px rgba(0, 0, 0, 0.7)' }}
+                            className='m-auto rounded-full'
                             src={Img2} alt="Adeola" width={250} height={250}
                         />
                         <SocialMediaIcons />
@@ -78,8 +80,8 @@ function Developer() {
                                 <li>Young African Leaders Initiative (YALI) Emerging Leaders Program - YALI Regional Leadership Center West Africa, Accra</li>
                             </ul>
                             Today, Adeola has various individual and collaborative software projects targeted at solving various
-                            problems, to his credit. His mantra, "there is code for every instruction, and logic behind every
-                            effect: if it matters to humanity, we should find it!" has been a motivation behind his use of programming
+                            problems, to his credit. His mantra, &ldquo;there is code for every instruction, and logic behind every
+                            effect: if it matters to humanity, we should find it!&rdquo; has been a motivation behind his use of programming
                             to solve problems. The following are some of his skill endowments.
                             <h3>Technical Skills</h3>
                             <ul className=''>
@@ -162,6 +164,21 @@ function Developer() {
 
                         </p>
                     </div>
+                </div>
+                </div>
+                <div className="col-end-7 col-span-1 rounded-l-lg bg-gradient-to-r py-5 from-gray-900 to-gray-200 mx-2 my-2">
+
+                    <Buttons text="No. 1" link="#" />
+                    <Buttons text="No. 2" link="#" />
+                    <Buttons text="No. 3" link="#" />
+                    <Buttons text="No. 4" link="#" />
+                    <Buttons text="No. 5" link="#" />
+                    <Buttons text="No. 6" link="#" />
+                    <Buttons text="No. 7" link="#" />
+                    <Buttons text="No. 8" link="#" />
+                    <Buttons text="No. 9" link="#" />
+                    <Buttons text="No. 10" link="#" />
+
                 </div>
             </div>
             <Footer />

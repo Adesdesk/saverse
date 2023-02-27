@@ -1,5 +1,6 @@
 import React from "react";
 import Link from 'next/link';
+import Image from 'next/image'
 
 
 function Footer() {
@@ -12,20 +13,27 @@ function Footer() {
       <p>Thrift without a rift.</p>
       <div className="flex justify-center my-4">
         <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
-          <img
+
+        <Image 
             src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
-            className="w-7 md:w-8"
-          />
+            alt="Icon"
+            width={28}
+            height={28}
+        />
           <div className="text-left ml-3">
             <p className="text-xs text-gray-200">Download on</p>
             <p className="text-sm md:text-base">Google Play Store</p>
           </div>
         </div>
         <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">
-          <img
+
+        <Image 
             src="https://cdn-icons-png.flaticon.com/512/888/888841.png"
-            className="w-7 md:w-8"
-          />
+            alt="Icon"
+            width={28}
+            height={28}
+        />
+          
           <div className="text-left ml-3">
             <p className="text-xs text-gray-200">Download on</p>
             <p className="text-sm md:text-base">Apple Store</p>
@@ -41,7 +49,6 @@ function Footer() {
       </p>
       <div className="order-1 text-white md:order-2">
       <Link className="px-2" href='/developer'>About Adeola</Link>
-        {/*<span className="px-2">About Adeola</span>*/}
         <span className="px-2 border-l">Privacy Policy</span>
       </div>
     </div>

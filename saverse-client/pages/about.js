@@ -25,7 +25,7 @@ export default function About() {
         <div className="col-start-1 col-end-6 rounded-r-lg bg-gradient-to-r from-white to-gray-200 mx-2 my-2">
 
           <p className="mx-3 text-justify">
-            Get started with Saverse thrift administrator
+            About Saverse...
           </p>
         </div>
 

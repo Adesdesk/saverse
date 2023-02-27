@@ -24,10 +24,10 @@ function Navbar() {
                             <Link href='/'>Home</Link>
                         </li>
                         <li className='font-normal p-1 cursor-pointer'>
-                            <Link href='/products'>About</Link>
+                            <Link href='/about'>About</Link>
                         </li>
                         <li className='font-normal p-1 cursor-pointer'>
-                            <Link href='/users'>Guide</Link>
+                            <Link href='/guide'>Guide</Link>
                         </li>
                         
                     </ul>
